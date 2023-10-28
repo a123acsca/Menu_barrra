@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+    <script src ="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="movil.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="ancho">
+        <figure class="logo">
+            <img src="imagenes/pullrequest-logo.svg" alt="">
+        </figure>
+    </header>
+    <nav class="ancho">
+        <i class="fa-solid fa-bars" id="barra_menu"></i>
+        <ul id="menu" class="contenedor_menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Empresa</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Ubicacion</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="ancho contenedor_info">
+        <article>
+            <h1>Creacion de paginas web</h1>
+            <h3>Curso Basico de HTML y CCS</h3>
+            <a href="#">Ver Mas</a>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur debitis tempore numquam magnam fuga sit culpa, animi modi officia veniam error in qui repudiandae atque facere adipisci iusto deleniti, inventore quas facilis explicabo ullam necessitatibus dolorum quam. Tempora, nemo beatae?</p>
+        </article>
+        <figure>
+            <img src="imagenes/foto1.webp" alt="">
+        </figure>
+    </section>
+
+    <footer class="ancho">
+        <a href="#"> @menuresponsive</a>
+    </footer>
+    
+    <script>
+        $("#barra_menu").click(function (){
+            $("#menu").slideToggle();
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@media screen and (max-width: 750px) {
+    #barra_menu{
+        display: inline-block;
+        margin: 20px;
+    }
+    .contenedor_menu{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        display: none;
+    }
+    .contenedor_menu li{
+        width: 100%;
+    }
+    .contenedor_menu a{
+        padding: 10px 30px;
+        border: 0;
+        border-bottom: 2px #28567a dotted;
+        border-radius: 0;
+        display: block;
+    }
+}
